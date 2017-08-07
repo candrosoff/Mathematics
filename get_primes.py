@@ -1,5 +1,7 @@
 import numpy as np
+import timeit
 
+start = timeit.default_timer()
 def is_even(a):
     if a%2 !=0:
         return False
@@ -40,9 +42,7 @@ primes=get_primes(number)
 print("There are ",len(primes)," primes between 1 and ",number,"\n")
 print("The primes are as follows:",primes,"\n")
 
-import timeit
 
-start = timeit.default_timer()
 
 #Your statements here
 
